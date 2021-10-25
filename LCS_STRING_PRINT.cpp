@@ -5,6 +5,7 @@
 using namespace std;
 
 // LCS Function
+// LCS is the algoithum use to find similar string patterns the application major coomon of LCS is plagrisum chacker
 string LCS(string x, string y, int m, int n)
 {
 	// Make 2-d Array
