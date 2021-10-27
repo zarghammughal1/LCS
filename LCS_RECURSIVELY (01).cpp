@@ -1,4 +1,4 @@
-//xfcgvhbjnsredftgybngxecvybnkxcvhbjnfxfgchvjbknfxfgvhbjknfcgvhb
+// Import Libraries
 #include<iostream>
 #include<conio.h>
 
@@ -22,17 +22,20 @@ int LCS(string x, string y, int m, int n)
 int main()
 {
 	string x,y;
+	// Taking Input
 	cout << "Enter 1st String: ";
 	getline(cin, x);
 	cout << "Enter 2nd String: ";
 	getline(cin, y);
 	
+	// Print of length of strings
 	int m = x.length();
 	cout << endl << "Length of 1st String = " << m << endl;
 	
 	int n = y.length();
 	cout << "Length of 2nd String = " << n << endl;
 	
+	// Print output
 	cout << endl << endl << "LCS of " << x << " and " << y << " = " << LCS(x,y,m,n);
 	
 	return 0; 
